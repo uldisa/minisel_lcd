@@ -1,0 +1,54 @@
+#######################################
+# Syntax Coloring Map SPI
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MINISEL_LCD	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+on	KEYWORD2
+off	KEYWORD2
+toggle	KEYWORD2
+clear	KEYWORD2
+all	KEYWORD2
+update	KEYWORD2
+keyCallback	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+Ms180_BOX	LITERAL1
+Ms180_ICON	LITERAL1
+MsDRUM_BOX	LITERAL1
+MsDRUM_ICON	LITERAL1
+MsSUN_BOX	LITERAL1
+MsSUN_ICON	LITERAL1
+MsPREWASH_BOX	LITERAL1
+MsPREWASH_ICON	LITERAL1
+MsWASH_BOX	LITERAL1
+MsWASH_ICON	LITERAL1
+MsRINSE_BOX	LITERAL1
+MsRINSE_ICON	LITERAL1
+MsTIMER_BOX	LITERAL1
+MsTIMER_ICON	LITERAL1
+MsBACKLIGHT	LITERAL1
+MsLED_7		LITERAL1
+MsLED_6		LITERAL1
+MsLED_5		LITERAL1
+MsLED_4		LITERAL1
+MsLED_3		LITERAL1
+MsLED_1		LITERAL1
+MsTIMER		LITERAL1
+MsDRUM		LITERAL1
+Ms180		LITERAL1
+MsMINUTE	LITERAL1
+MsMINU10	LITERAL1
+MsHOUR		LITERAL1
+
+
