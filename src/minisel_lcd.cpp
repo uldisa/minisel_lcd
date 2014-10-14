@@ -131,7 +131,7 @@ void MINISEL_LCD::clear(void){
 	MSLCDDataOutReady=true;
 
 }
-void MINISEL_LCD::all(void){
+/*void MINISEL_LCD::all(void){
 	MSLCDDataOutReady=false;
 	MSLCDDataOut[0][0]=MSLCDDataOut[1][0]=0xff;
 	MSLCDDataOut[0][1]=MSLCDDataOut[1][1]=0xff;
@@ -142,7 +142,7 @@ void MINISEL_LCD::all(void){
 	MSLCDDataOut[0][0]=(MSLCDDataOut[0][0]&0b11100011) | 0b00010000;
 	MSLCDDataOut[1][0]=(MSLCDDataOut[1][0]&0b11100011) | 0b00001000;
 	MSLCDDataOutReady=true;
-}
+}*/
 void MINISEL_LCD::update(void) {
 	uint8_t i;
 	digitalWrite(SS,LOW);

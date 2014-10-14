@@ -207,7 +207,7 @@ class MINISEL_LCD
 	void off(uint16_t symbol); // Hide toggable element
 	void toggle(uint16_t symbol,bool on); // Called by on and off.
 	void clear(void); // Hide all
-	void all(void); // Light all possible elements (diagnostics)
+//	void all(void); // Light all possible elements (diagnostics)
 	void update(void); // LCD content update. Should be called at regular intervals for image stability
 	uint8_t updateCounter; // there are 4 different LCD output modes and 8 input tests for pins
 	void keyCallback(void (*keyPress)(MINISEL_LCD *lcd,uint8_t buttons,uint8_t buttons_oldstate));
